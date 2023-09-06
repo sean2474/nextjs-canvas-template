@@ -8,7 +8,7 @@ export class App {
     this.resize();
   }
 
-  draw() {
+  draw(mx: number, my: number) {
     // draw canvas
   }
 
