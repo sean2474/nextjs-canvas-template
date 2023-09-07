@@ -1,5 +1,5 @@
 import { App } from "@/script/Canvas/App";
-import { RefObject, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { RefObject, useEffect, useRef, useState } from "react";
 
 function useCanvas() {
 	const canvasRef: RefObject<HTMLCanvasElement> = useRef<HTMLCanvasElement>(null);
